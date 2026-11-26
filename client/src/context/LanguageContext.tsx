@@ -14,7 +14,7 @@ export interface PortfolioData {
   BACKEND_CAPABILITIES: CapabilityItem[];
   GIS_PIPELINE_STEPS: typeof enData.GIS_PIPELINE_STEPS;
   EXPERIENCES: ExperienceItem[];
-  CODE_METRICS: typeof enData.CODE_METRICS;
+  // CODE_METRICS: typeof enData.CODE_METRICS;
   GITHUB_REPOS: typeof enData.GITHUB_REPOS;
 }
 
@@ -99,16 +99,7 @@ export interface Translations {
     educationTab: string;
     certificationTab: string;
   };
-  codeMetrics: {
-    eyebrow: string;
-    title: string;
-    subtitle: string;
-    commits: string;
-    repos: string;
-    prs: string;
-    status: string;
-    operationalPill: string;
-  };
+ 
   contact: {
     eyebrow: string;
     title: string;
@@ -213,16 +204,6 @@ const translationsEn: Translations = {
     workTab: 'Experience',
     educationTab: 'Education',
     certificationTab: 'Certifications',
-  },
-  codeMetrics: {
-    eyebrow: 'CODE & OPEN SOURCE',
-    title: 'System Activity & Repositories',
-    subtitle: 'Discipline reflected in consistent version control, clean commits, and modular repositories.',
-    commits: 'Total Commits',
-    repos: 'Repositories',
-    prs: 'Merged Pull Requests',
-    status: 'System Status',
-    operationalPill: 'All Systems Operational',
   },
   contact: {
     eyebrow: 'LET\'S BUILD SOMETHING GREAT',
@@ -329,16 +310,7 @@ const translationsAr: Translations = {
     educationTab: 'التعليم',
     certificationTab: 'الشهادات',
   },
-  codeMetrics: {
-    eyebrow: 'نشاط الكود والمصادر المفتوحة',
-    title: 'نشاط النظام ومستودعات الكود',
-    subtitle: 'انضباط هندسي ينعكس في سجل Git منتظم، وعمليات commit واضحة، وهياكل كود نموذجية.',
-    commits: 'إجمالي الـ Commits',
-    repos: 'المستودعات',
-    prs: 'طلبات الدمج المكتملة',
-    status: 'حالة النظام',
-    operationalPill: 'جميع الأنظمة تعمل بكفاءة',
-  },
+ 
   contact: {
     eyebrow: 'تواصل معي لبدء العمل',
     title: 'لنبدأ محادثة عمل',

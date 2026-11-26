@@ -506,3 +506,28 @@ export const EXPERIENCES: ExperienceItem[] = [
     skills: ['GIS', 'Spatial SQL', 'PostGIS', 'Cartography', 'Leaflet', 'ArcGIS', 'QGIS'],
   },
 ];
+
+
+export const GITHUB_REPOS = [
+  {
+    id: 'portfolio',
+    name: 'portfolio',
+    description: 'موقع البورتفوليو الشخصي لمطور Full Stack مبني بـ React وTypeScript وVite.',
+    language: 'TypeScript',
+    url: 'https://github.com/Mohamedali22710/portfolio',
+  },
+  {
+    id: 'insighto',
+    name: 'InsightO',
+    description: 'منصة تقييم وتحليلات 360° بالذكاء الاصطناعي مع LangChain وRAG.',
+    language: 'TypeScript',
+    url: 'https://github.com/3mrNour/InsightO',
+  },
+  {
+    id: 'github-profile',
+    name: 'مستودعات Mohamedali22710',
+    description: 'واجهات برمجية Backend وأنظمة إدارة التوصيل ومشاريع Full Stack.',
+    language: 'TypeScript / Node.js',
+    url: 'https://github.com/Mohamedali22710',
+  },
+];
